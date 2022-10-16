@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpawnGhost : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class SpawnGhost : MonoBehaviour
     public GameObject Scott;
 
     private bool ghostSpawn;
+
+    int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +43,8 @@ public class SpawnGhost : MonoBehaviour
         if(ghostSpawn == true)
         {
             Instantiate(Scott, new Vector3(0, 0, 2), Quaternion.identity);
+            SceneManager.LoadScene(1);
+
         }
     }
 }
