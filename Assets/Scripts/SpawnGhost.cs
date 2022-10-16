@@ -14,7 +14,7 @@ public class SpawnGhost : MonoBehaviour
 
     public bool ghostSpawn;
 
-    int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+    //int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +42,7 @@ public class SpawnGhost : MonoBehaviour
     {
         if(ghostSpawn == true)
         {
-            Instantiate(Scott, new Vector3(0, 0, 2), Quaternion.identity);
+            //Instantiate(Scott, new Vector3(0, 0, 2), Quaternion.identity);
             SceneManager.LoadScene(1);
 
         }
