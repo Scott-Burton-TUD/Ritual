@@ -12,7 +12,7 @@ public class SpawnGhost : MonoBehaviour
 
     public GameObject Scott;
 
-    private bool ghostSpawn;
+    public bool ghostSpawn;
 
     int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
