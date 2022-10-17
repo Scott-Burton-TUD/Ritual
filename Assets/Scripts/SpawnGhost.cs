@@ -42,7 +42,7 @@ public class SpawnGhost : MonoBehaviour
     {
         if(ghostSpawn == true)
         {
-            Instantiate(Scott, new Vector3(0, 0, 2), Quaternion.identity);
+            //Instantiate(Scott, new Vector3(0, 0, 2), Quaternion.identity);
             SceneManager.LoadScene(1);
 
         }
