@@ -8,7 +8,7 @@ public class Retry : MonoBehaviour
     public void TryAgain()
     {
         
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 
     public void Bye()

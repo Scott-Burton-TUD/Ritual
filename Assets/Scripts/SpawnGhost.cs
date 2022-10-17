@@ -14,7 +14,7 @@ public class SpawnGhost : MonoBehaviour
 
     public bool ghostSpawn;
 
-    int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+    //int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
     // Start is called before the first frame update
     void Start()
