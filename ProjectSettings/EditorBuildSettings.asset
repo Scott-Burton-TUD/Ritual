@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Aaron.unity
     guid: 992a0bb2200811f43a90dfcc5a3f1cac
   - enabled: 1
+    path: Assets/Scenes/Aaron4.unity
+    guid: 9a24d18dc7ad2f24f9b46d1d50a8da06
+  - enabled: 1
+    path: Assets/Scenes/Aaron5.unity
+    guid: add991bc87f15ef4893bf5896097d66f
+  - enabled: 1
+    path: Assets/Scenes/Aaron3.unity
+    guid: 103a957f3bbaea643b24f5758019b0ae
+  - enabled: 1
     path: Assets/Scenes/Aaron 2.unity
     guid: a486871827f86174395f6e0706911821
   - enabled: 1
